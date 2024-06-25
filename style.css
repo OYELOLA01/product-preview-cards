@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(243, 234, 227);
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px auto;
+    max-width: 600px;
+}
+.main1{
+    /* max-width: 400px; */
+}
+.img{
+    width: 100% ;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.main2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+}
+.per{
+    margin-left: 2rem;
+}
+.h1{
+    font-weight: 500;
+    font-family: "montserrat";
+}
+p{
+    color: rgb(203, 202, 210);
+}
+.gg{
+    color: rgb(61, 129, 104);
+}
+button{
+    margin-left:2rem ;
+    color: white;
+    padding: 0.5rem 4rem;
+    background-color:rgb(61, 129, 104) ;
+    border-radius: 5px;
+    border: none;
+}
+@media only screen and (max-width: 566px){
+    .main{
+        max-width: 500px;
+    }
+    button{
+        padding: 0.5rem 2rem;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    h1{
+        font-weight: 800; 
+    }
+    .main{
+        display: grid;
+        width: 350px;
+    }
+    button{
+        margin-bottom: 1rem;
+    }
+    .img{
+        border-radius:  10px 10px 0 0 ;
+    }
+    .main2{
+        border-radius: 0 0 10px 10px;
+    }
+}
